@@ -4,14 +4,14 @@
  * To contain application wide settings, routes, state, etc.
  */
 
-import React from "react";
+import React, { useEffect } from "react";
 
 import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
-
+import image from "./images/Me.jpg";
 import "./styles.css";
 
 /**
@@ -39,6 +39,14 @@ const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
 
 const App = () => {
+  useEffect(() => {
+    document.title = "Pankaj Singh Kushwaha Portfolio";
+    const link = document.createElement('link');
+    link.rel = 'icon';
+    link.href = image;
+    document.head.appendChild(link);
+  });
+
   return (
     <div id="main">
       <Header />
