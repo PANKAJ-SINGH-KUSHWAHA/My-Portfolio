@@ -24,19 +24,34 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a Full Stack Web Developer student studying at Pranveer Singh Institute of Technology, Kanpur. I enjoy creating unique and simplistic websites in creative ways.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
+  "Full Stack Web Developer",
+  "Data Structures and Algorithm",
+  "JavaScript",
+  "React",
+  "Node.js",
+  "Express",
+  "MongoDB",
+  "RESTful APIs",
+  "Git",
+  "Agile methodologies",
   "Web design",
   "User experience",
   "Inclusive design",
   "Focus group testing",
   "Mobile user interfaces",
   "Graphic design",
+  "C++",
+  "Java",
+  "Python",
+  "LeetCode",
+  "HackerRank",
 ];
 
 /**
@@ -45,7 +60,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my Web Development experience I continually look for new and better ways to make tech accessible by all.";
 
 const About = () => {
   return (
@@ -53,7 +68,7 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
+          backgroundColor: "black",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",
