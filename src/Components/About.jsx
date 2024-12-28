@@ -69,6 +69,7 @@ const About = () => {
       <div
         style={{
           backgroundColor: "black",
+          color:"white",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",
