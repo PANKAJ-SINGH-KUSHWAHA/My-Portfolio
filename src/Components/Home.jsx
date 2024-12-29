@@ -27,7 +27,7 @@ const imageAltText = "Pankaj Singh Kushwaha Profile photo";
 const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height" style={{ position: "relative" }}>
-      <img className="background" src={image} alt="" style={{ width: "100%", position: "relative", borderRadius: "50%", marginLeft:"5px",marginRight:"5px" }} />
+      <img className="background" src={image} alt="" style={{ width: "700px", height:"700px", position: "relative",zIndex:0, borderRadius: "50%",marginTop:"100px" , marginLeft:"5px",marginRight:"5px" }} />
       <div style={{ position: "absolute", top: "5rem", left: "1rem", width: "28rem", backgroundColor: "rgba(0, 0, 0, 0.5)", padding: "1rem", borderRadius: "10px" }}>
         <h1 style={{ color: "#4A90E2", textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)" }}>{name}</h1>
         <h2 style={{ color: "#FFFFFF", textShadow: "1px 1px 3px rgba(0, 0, 0, 0.7)", fontStyle: "italic" }}>{title}</h2>

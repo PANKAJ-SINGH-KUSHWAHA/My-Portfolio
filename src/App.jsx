@@ -45,6 +45,7 @@ const App = () => {
     link.rel = 'icon';
     link.href = image;
     document.head.appendChild(link);
+    
   });
 
   return (
