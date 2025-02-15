@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Pankaj Singh Kushwaha",
-  title: "Web Designer & Content Creator",
+  title: "Full Stack Web Developer and Machine Learning Enthusiast",
   email: "kushwahapankaj793@gmail.com",
   gitHub: "https://github.com/PANKAJ-SINGH-KUSHWAHA",
   instagram: "https://www.instagram.com/01pankaj_singh_/?hl=en",
