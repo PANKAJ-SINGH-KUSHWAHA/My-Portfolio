@@ -37,23 +37,17 @@ const projectList = [
     url: "https://psitpre-order.netlify.app/",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    "title": "SMS Spam Prediction",
+    "description": "Developed an SMS spam detection model using Python, Scikit-learn, and Natural Language Processing (NLP). Deployed the model on Streamlit Cloud for real-time spam detection.",
+    "url": "https://pankaj-singh-sms-email-predictor.streamlit.app/"
   },
   {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+    "title": "Portfolio Website",
+    "description": "Designed and developed a personal portfolio website using React.js. Deployed the application on Netlify.",
+    "url": "https://pankaj-singh-portfolio.netlify.app/"
+  }, 
+  
+  
 ];
 
 const Portfolio = () => {
