@@ -28688,11 +28688,10 @@ const Home = ({ name , title  })=>{
                 style: {
                     width: "700px",
                     height: "700px",
-                    position: "relative",
+                    position: "absolute",
                     zIndex: 0,
                     borderRadius: "50%",
                     marginTop: "100px",
-                    marginLeft: "5px",
                     marginRight: "5px"
                 }
             }, void 0, false, {
